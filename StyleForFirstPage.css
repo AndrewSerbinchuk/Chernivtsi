@@ -1,0 +1,179 @@
+/*General styles*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: orange;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.3em;
+    overflow:  hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* HEADER */
+.header {
+    padding: 50px;
+    background-color: orange;
+}
+
+.header h1,
+.header h2 {
+    color: #222222;
+    text-align: center;
+}
+
+/* Navigation */
+.page-navigation {
+    background-color: #222222;
+    border-color: #101010;
+    min-height: 80px;
+}
+
+.page-navigation li {
+    float: left;
+    width: 120px;
+}
+
+.page-navigation a {
+    display:block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center
+}
+.page-navigation li a:hover {
+    color: orange;
+    background-color: #101010;
+    border-radius: 10px;
+}
+
+/* Login */
+.login {
+    padding: 15px 0;
+    float: right;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    outline: none;
+}
+
+.login input[type="submit"] {
+    color: #222222;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 55px;
+}
+
+/* Main */
+.collection {
+    overflow: auto;
+
+}
+
+.collection-title{
+    padding-bottom: 3px ;
+    border-bottom: 1px solid #222222;
+    font-size: 20px;
+    text-align: left;
+}
+.collection-text h3 {
+    overflow:  hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.collection-item {
+    border: 2px solid orange;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.collection-item img,
+.collection-item video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.collection-text {
+    padding: 0 20px 20px 20px;
+}
+
+.collection-text button {
+    padding: 5px;
+    border: 1px solid #9d9d9d;
+    background-color: #9d9d9d;
+    border-radius: 15px;
+    outline: none;
+}
+
+.collection-Item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.collection>div:first-child{
+    padding-left:0;
+    padding-right: 5px;
+
+}
+
+.collection>div:last-child{
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+#link-for-video {
+    background-color: #9d9d9d;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#link-for-video a{
+    display: block;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
+#link-for-video a:hover {
+    color: orange;
+    background-color: #101010;
+}
+
+.footer {
+    background-color:  #222222;
+    padding: 20px 0;
+    margin-top: 500px;
+    color: orange;
+}
